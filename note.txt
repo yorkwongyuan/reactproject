@@ -1,0 +1,4 @@
+1.webpack resolve extension ,一个数组引入时可以省去后缀
+2.path.join , 只是简单拼接地址
+3.babel-polyfill, 因为babel只能转es5句法，新的API和新的方法比如array.from 却不可以使用，所以要转换
+4.webpack, chunkfilename 非入口文件打包出来的，commonjs使用场景一般是异步方式加载的 
