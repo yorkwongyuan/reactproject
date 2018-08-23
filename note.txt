@@ -1,4 +1,17 @@
+一.2018-8-21
 1.webpack resolve extension ,一个数组引入时可以省去后缀
 2.path.join , 只是简单拼接地址
 3.babel-polyfill, 因为babel只能转es5句法，新的API和新的方法比如array.from 却不可以使用，所以要转换
 4.webpack, chunkfilename 非入口文件打包出来的，commonjs使用场景一般是异步方式加载的 
+
+二.2018-8-22
+1.webpack html-webpack-plugin，用于注入文件
+2.webpack webpack.optimize.uglifyJsPlugin ，用于压缩文件
+3.webpack devtool map文件的地址在压缩后的文件的末尾
+4.webpack open-browser-webpack-plugin 默认打开浏览器
+5.webpack webpack-bundle-analyze-plugin 包分析插件
+
+6.socket.io 入门
+
+三.2018-8-23
+1.redux 以及 redux的reducer合并
